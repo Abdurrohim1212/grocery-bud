@@ -14,7 +14,16 @@ function App() {
   });
   const handleSubmit = e => {
     e.preventDefault();
-    console.log("hello");
+    if (!name) {
+      //display soemthing
+    } else if (name && isEditing) {
+      // deal with editing
+    } else {
+      //show alert
+      const newItem = { id: new Date().getTime.toString(), title: name };
+      setList([...list, newItem]);
+      setName("");
+    }
   };
   return (
     <section className="section-center">
@@ -35,7 +44,7 @@ function App() {
         </div>
       </form>
       <div className="grocery-container">
-        <List />
+        <List items={list} />
         <button className="clear-btn">clear items</button>
       </div>
     </section>
