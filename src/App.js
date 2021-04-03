@@ -5,7 +5,7 @@ import Alert from "./Alert";
 const getLocalStorage = () => {
   let list = localStorage.getItem("list");
   if (list) {
-    return JSON.parse(localStorage.getItem);
+    return JSON.parse(localStorage.getItem("list"));
   }
   return [];
 };
