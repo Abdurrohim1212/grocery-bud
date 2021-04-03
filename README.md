@@ -6,8 +6,8 @@
 
 ## About the project
 
-> This is really simple project called Tour project build with React js
-> This project basically just similar to catalogue where user can see and choose based on their interest, here user can read detail every single tour package and decide whether interested or not once user click "no interested" then the list of catalogue will be reduced
+> This is really simple project called "Grocery bud" project build with React js
+> This project basically to assit you organize everything you need for your groceries need, u can list down all u need to buy, remove or edit the list as u need .
 > <img src="/src/assets/images/adding_item.PNG" alt="images"/> > <img src="/src/assets/images/remove_item.PNG" alt="images"/> > <img src="/src/assets/images/edit_list.PNG" alt="images"/>
 
 ## Install
