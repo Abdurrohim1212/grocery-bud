@@ -36,7 +36,6 @@ function App() {
       setName("");
     }
   };
-  console.log(`is editing`, isEditing);
   const clearList = () => {
     setAlert({ show: true, type: "danger", msg: "empty list" });
     setList([]);
