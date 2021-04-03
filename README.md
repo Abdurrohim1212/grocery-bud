@@ -8,7 +8,7 @@
 
 > This is really simple project called Tour project build with React js
 > This project basically just similar to catalogue where user can see and choose based on their interest, here user can read detail every single tour package and decide whether interested or not once user click "no interested" then the list of catalogue will be reduced
-> <img src="/src/images/tour2.PNG" alt="images"/>
+> <img src="/src/images/adding_item.PNG" alt="images"/> > <img src="/src/assets/images/edit_list.PNG" alt="images"/> > <img src="/src/assets/images/remove_item.PNG" alt="images"/>
 
 ## Install
 
